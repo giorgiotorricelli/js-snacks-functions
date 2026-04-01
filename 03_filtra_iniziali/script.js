@@ -14,13 +14,13 @@ function filterInitial(namesArray, filterChar){
             filteredArray.push(namesArray[i]);
         }
     }
-    return filteredArray
+    return filteredArray;
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const risultato = filterInitial(names, "a")
+const risultato = filterInitial(names, "a");
 console.log(risultato);
 
 
